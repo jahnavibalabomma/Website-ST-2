@@ -1,0 +1,47 @@
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: burlywood;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+}
+.list {
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  width: 150px;
+  padding: 5px;
+  background-color: darkgray;
+}
+.hii:hover .list {
+  display: block;
+}
+nav {
+  position: sticky;
+  top: 0;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: burlywood;
+}
+nav a:hover {
+  background-color: brown;
+  font-size: 20px;
+  padding: 10px;
+  color: yellow;
+}
+.prod div {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 10px;
+}
+.prod {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* width: 80%; */
+  justify-content: center;
+}
